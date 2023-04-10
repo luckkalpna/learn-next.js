@@ -1,12 +1,5 @@
 {
-  "dashboard": {
-      "post": 5,
-      "like": 10,
-      "follower": 20,
-      "following": 50
-},
-
-  "news": [
+  "events": [
     {
       "id": 1,
       "title": "News Article 1",
@@ -26,6 +19,20 @@
       "title": "News Article 3",
       "desription": "Desription 3",
       "category": "sports"
+    },
+
+    {
+      "id": 4,
+      "title": "News Article 4",
+      "desription": "Desription 4",
+      "category": "politics"
+    },
+
+    {
+      "id": 5,
+      "title": "News Article 5",
+      "desription": "Desription 5",
+      "category": "politics"
     }
   ]
 }
