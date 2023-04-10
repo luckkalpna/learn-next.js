@@ -2,8 +2,9 @@
 function Post({ post }) {
   return (
     <div>
-      <h2>{post.id} {post.title} {post.price}</h2>
-      <p>{post.discription}</p>
+      <h2>{post.id} {post.title}</h2>
+      <p>{post.body}</p>
+      <hr />
     </div>
   )
 }
