@@ -1,29 +1,26 @@
 import { useState } from "react"
 
-function commentsPage(){
-
+function CommentsPage() {
   const [comments, setComments] = useState([])
 
-  const fetchComments = async() => {
+  const fetchComments = async () => {
     const response = await fetch('/api/comments')
     const data = await response.json()
     setComments(data)
   }
 
-  return(
+  return (
     <>
       <button onClick={fetchComments}>Load Comments</button>
-      {
-        comments.map((comment) => {
-          return(
-            <div key={comment.id}>
-              {comment.id} {comment.text}
-            </div>
-          )
-        })
-      }
+      {comments.map(comment => {
+        return (
+          <div key={comment.id}>
+            {comment.id} {comment.text}
+          </div>
+        )
+      })}
     </>
   )
 }
 
-export default commentsPage
+export default CommentsPage
