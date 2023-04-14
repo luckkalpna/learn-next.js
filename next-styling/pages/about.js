@@ -1,11 +1,11 @@
-import React from 'react'
+import styles from '../styles/About.module.css'
 
-function about() {
+function About() {
   return (
     <div>
-      <h2>About Page</h2>
+      <h2 className={styles.highlight}>About Page</h2>
     </div>
   )
 }
 
-export default about
+export default About
