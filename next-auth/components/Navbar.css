@@ -1,0 +1,37 @@
+ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+h2, h3, a{
+  color: #34495e;
+}
+
+ul, li{
+  margin-top: 1.5em;
+  text-decoration: none;
+  margin-left: 1.5em;
+}
+
+.li-home{
+  margin-left: 57em;
+}
+
+.logo{
+  margin-top: 1em;
+  margin-left: 1em;
+  font-size: 1.45em;
+}
+
+.main-nav{
+  display: flex;
+  margin-top: 5px;
+}
+
+.header{
+  display: flex;
+  border: 1px solid black;
+  height: 4.5em;
+  box-shadow: 8px 8px 3px rgba(185, 184, 184, 0.839);
+}
